@@ -22,12 +22,12 @@ import { Header } from 'common/styledCommon';
 
 export const App = () => {
     return (
-      <>
+      <div style={{marginLeft: 20}}>
         <Header>Phonebook</Header>
         <ContactForm />
         <Header as="h2">Contacts</Header>
         <Filter />
         <ContactList />
-      </>
+      </div>
     );
 };
